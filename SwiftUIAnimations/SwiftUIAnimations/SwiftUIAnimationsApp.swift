@@ -4,7 +4,7 @@ import SwiftUI
 struct SwiftUIAnimationsApp: App {
     var body: some Scene {
         WindowGroup {
-            TwinCircleAnimation()
+            TwinCircleAnimation(size: 20)
         }
     }
 }
