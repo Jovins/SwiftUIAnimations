@@ -20,7 +20,7 @@ struct TwinCircleAnimation: View {
                 .scaleEffect(abs(factor) * 0.3 + 1)
                 .offset(x: -factor * size * 0.6, y: 0)
         }
-        .frame(width: 200, height: 200)
+        .frame(width: 100, height: 100)
         .onAppear {
             animate()
         }
