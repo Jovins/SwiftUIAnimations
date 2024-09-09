@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6CBF193A2C8F5529007D0D8A /* Extension in Resources */ = {isa = PBXBuildFile; fileRef = 6CBF19392C8F5529007D0D8A /* Extension */; };
+		6CBF193C2C8F5549007D0D8A /* More in Resources */ = {isa = PBXBuildFile; fileRef = 6CBF193B2C8F5549007D0D8A /* More */; };
 		6DF2259E2B97150D00A2A68B /* SwiftUIAnimationsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF2259D2B97150D00A2A68B /* SwiftUIAnimationsApp.swift */; };
 		6DF225A02B97150D00A2A68B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF2259F2B97150D00A2A68B /* ContentView.swift */; };
 		6DF225A22B97150E00A2A68B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DF225A12B97150E00A2A68B /* Assets.xcassets */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6CBF19392C8F5529007D0D8A /* Extension */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Extension; sourceTree = "<group>"; };
+		6CBF193B2C8F5549007D0D8A /* More */ = {isa = PBXFileReference; lastKnownFileType = folder; path = More; sourceTree = "<group>"; };
 		6DF2259A2B97150D00A2A68B /* SwiftUIAnimations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIAnimations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DF2259D2B97150D00A2A68B /* SwiftUIAnimationsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIAnimationsApp.swift; sourceTree = "<group>"; };
 		6DF2259F2B97150D00A2A68B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -57,6 +61,8 @@
 		6DF2259C2B97150D00A2A68B /* SwiftUIAnimations */ = {
 			isa = PBXGroup;
 			children = (
+				6CBF193B2C8F5549007D0D8A /* More */,
+				6CBF19392C8F5529007D0D8A /* Extension */,
 				6DF225AB2B97152200A2A68B /* Animation */,
 				6DF2259D2B97150D00A2A68B /* SwiftUIAnimationsApp.swift */,
 				6DF2259F2B97150D00A2A68B /* ContentView.swift */,
@@ -144,6 +150,8 @@
 			files = (
 				6DF225A52B97150E00A2A68B /* Preview Assets.xcassets in Resources */,
 				6DF225A22B97150E00A2A68B /* Assets.xcassets in Resources */,
+				6CBF193A2C8F5529007D0D8A /* Extension in Resources */,
+				6CBF193C2C8F5549007D0D8A /* More in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
